@@ -7,7 +7,7 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class ServerMain {
 
-    public static final String UNIQUE_BINDING_NAME = "server.calculator";
+    public static final String UNIQUE_BINDING_NAME = "server.calculator1.0";
 
     public static void main(String[] args) throws RemoteException, AlreadyBoundException, InterruptedException {
 

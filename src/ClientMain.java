@@ -4,7 +4,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class ClientMain {
-    public static final String UNIQUE_BINDING_NAME = "server.calculator";
+    public static final String UNIQUE_BINDING_NAME = "server.calculator1.0";
 
     public static void main(String[] args) throws RemoteException, NotBoundException {
 
