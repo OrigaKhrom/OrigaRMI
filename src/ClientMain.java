@@ -8,7 +8,7 @@ public class ClientMain {
 
     public static void main(String[] args) throws RemoteException, NotBoundException {
 
-        final Registry registry = LocateRegistry.getRegistry(2732);
+        final Registry registry = LocateRegistry.getRegistry(2733);
 
         Calculator calculator = (Calculator) registry.lookup(UNIQUE_BINDING_NAME);  //работа RMI основана на использовании прокси, поэтому удаленный вызов доступен только для методов интерфейсов, а не классов.
 
