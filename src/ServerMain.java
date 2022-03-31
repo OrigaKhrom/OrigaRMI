@@ -13,7 +13,7 @@ public class ServerMain {
 
         final RemoteCalculationServer server = new RemoteCalculationServer();
 
-        final Registry registry = LocateRegistry.createRegistry(2733);
+        final Registry registry = LocateRegistry.createRegistry(2756);
 
         Remote stub = UnicastRemoteObject.exportObject(server, 0);
         registry.bind(UNIQUE_BINDING_NAME, stub);
